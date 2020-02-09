@@ -1,0 +1,121 @@
+*{
+	margin: 0;	
+}
+
+html{
+	width: 100%;
+	height: 100%;
+}
+
+body{
+	width: 100%;
+	height: 100%;
+}
+
+.flex-center{
+	display: flex;
+    align-items: center;
+}
+
+.px90{
+	font-size: 90px;
+}
+
+.px40{
+	font-size: 40px;
+}
+
+.px20{
+	font-size: 20px;
+}
+
+.center{
+	display: flex;
+	justify-content: center;
+}
+
+.vertical-center404{
+	margin-top: 35vh;
+}
+
+.decoration-none{
+	text-decoration: none;
+}
+
+.border-under{
+	border-bottom: 1px solid black;
+}
+
+div a:visited , a{
+	color: blue;
+}
+
+.logo{
+	margin-left: 5%;
+}
+
+.header_input{
+	cursor: pointer;
+	border: none;
+	background-color: #ffffff00;
+	color: blue; 
+}
+
+#header{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+#right_links{
+	margin-right: 5%;
+	display: flex;
+	align-items: center;
+}
+
+.message{
+	color: red;
+	font-size: 20px;
+}
+
+#register_form{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 10px;
+}
+
+form#register_form input , form#register_form textarea{
+	margin-top: 10px;
+}
+
+.advert {
+	width: 800px;
+	height: 75px;
+	background-color: #cecece;
+	margin: auto;
+	margin-top: 10px;
+	border: 1px solid #9e9e9e;
+	color: black;
+	flex-direction: column;
+	justify-content: start;
+}
+
+.ad_initials{
+	padding: 0 5px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #7a7a7a;
+}
+
+.ad_desc{
+	text-overflow: ellipsis;
+    overflow: hidden;
+    height: 35px;
+    padding: 0 5px;
+}
+
+.ad_full_desc{
+	padding: 0 15px;
+	font-size: 30px;
+}
